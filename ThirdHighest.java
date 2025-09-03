@@ -21,7 +21,7 @@ public class ThirdHighest {
         Integer thirdHighest = null;
 
         // Get the 3rd highest value
-        if (sortedSet.size() >= 3) {
+        if (sortedSet.size() >= 4) {
             thirdHighest = sortedSet.descendingSet().toArray(new Integer[0])[2];
         }
 
