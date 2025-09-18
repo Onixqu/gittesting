@@ -20,8 +20,8 @@ public class ThirdHighest {
         TreeSet<Integer> sortedSet = new TreeSet<>(uniqueNumbers);
         Integer thirdHighest = null;
 
-        // Get the 3rd highest value
-        if (sortedSet.size() >= 7) {
+        if (sortedSet.size() >= 6) {
+        origin/branch6
             thirdHighest = sortedSet.descendingSet().toArray(new Integer[0])[2];
         }
 
